@@ -1,0 +1,2 @@
+//digunakan untuk tidak menjalankan file kecuali index yang ada didalam folder app
+Options -indexes

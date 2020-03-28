@@ -1,0 +1,82 @@
+body{
+	background-image: url('../img/bc.jpg');
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+body::after{
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: .6;
+	position: absolute;
+}
+nav{
+	height: 50px;
+	padding: 0 100px;
+	font-family: sans-serif;
+	margin-top: 10px;
+	position: relative;
+	z-index: 99;
+}
+nav img{
+	line-height: 50px;
+	height: 40px;
+	margin-top:5px;
+}
+ul{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	padding: 15px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+ul li a.aktif{
+/*background-color: red;*/
+border-bottom: 3px solid orangered;
+}
+.isicontent{
+	color: white;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	margin-top: 150px;
+	position: relative;
+	z-index: 99;
+	font-family: sans-serif;
+}
+.welcome{
+	font-size: 40px;
+}
+.welcome span{
+	color: yellow;
+}
+.isicontent p{
+	font-size: 20px;
+}
+.isicontent a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 50px;
+	border-radius: 5px;
+	border: 2px solid white;
+	margin-top: 5px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.isicontent a:hover{
+	background-color: white;
+	color: black;
+}

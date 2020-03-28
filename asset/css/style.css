@@ -1,0 +1,98 @@
+body{
+background-color:rgba(0,0,0,.1);
+margin: 0;
+padding: 0;
+}
+.login{
+	box-shadow: 0 0 10px 4px rgba(0,0,0,.05);
+	border-radius: 10px;
+	background-color: white;
+	width: 400px;
+	margin: auto;
+	padding: 30px;
+	margin-top: 100px;
+	font-family: sans-serif;
+	text-align: center;
+	/*box-shadow:0 0 5px rgba(0,0,0,.9);*/
+}
+.login h3,.register h3{
+	font-size: 20px;
+	font-weight: 200;
+	color: rgba(0,0,0,.7);
+	font-family: sans-serif;
+}
+ .login input, .register input{
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: none;
+	border: 1px solid rgba(0,0,0,.2);
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	outline: none;
+}
+.login button,.register button{
+	padding: 10px;
+	border-radius: 20px;
+	background-color: tomato;
+	border: none;
+	color: white;
+	width: 100%;
+    cursor: pointer;
+}
+.login a,.register a{
+	text-decoration: none;
+	font-size: 13px;
+	color: rgba(0,0,0,.7);
+	text-align: center;
+}
+.register{
+	padding: 20px;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 100px;
+	max-width: 600px;
+	background-color: white;
+}
+.row{
+	display: flex;
+	width: 100%;
+}
+.row .col{
+	flex-grow: 1;
+}
+
+.alert{
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	color: rgba(0,0,0,.7);
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.alert-gagal{
+	background-color: rgba(255,0,0,.5);
+	border: 2px solid rgba(255,0,0,.7);
+}
+.alert-sukses{
+	border: 2px solid rgba(0,128,0,.7);
+	background-color: rgba(0,128,0,.5);
+}
+.alert-warning{
+	border: 2px solid orange;
+	background-color:rgba(245,228,32,.7);
+	margin-bottom: 	20px;
+	}
+
+/*.login label{
+	font-family: sans-serif;
+	color: rgba(0,0,0,.7);
+}
+*/
+.login select{
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	outline: none;
+}
